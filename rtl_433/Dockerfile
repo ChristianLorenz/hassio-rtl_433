@@ -37,5 +37,8 @@ RUN apk add --no-cache --virtual build-deps alpine-sdk cmake git libusb-dev && \
     make install && \
     apk del build-deps && \
     rm -r /tmp/src 
+    
+COPY run.sh /
+RUN chmod a+x /run.sh
 
-CMD /usr/local/bin/rtl_433 -c /config/rtl_433.conf
+CMD [ "/run.sh" ]
