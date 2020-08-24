@@ -1,10 +1,12 @@
 {
   "name": "RTL_433",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "rtl_433",
   "description": "RTL_433 decodes 315 & 433MHz RF devices and sends them out via MQTT.",
   "url": "https://github.com/ChristianLorenz/hassio-rtl_433",
   "startup": "application",
+  "services": ["mqtt:need"],
+  "discovery": ["rf"],
   "boot": "auto",
   "map": ["config", "ssl"],
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
