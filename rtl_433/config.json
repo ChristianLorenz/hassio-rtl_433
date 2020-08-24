@@ -6,7 +6,6 @@
   "url": "https://github.com/ChristianLorenz/hassio-rtl_433",
   "startup": "application",
   "services": ["mqtt:need"],
-  "discovery": ["rf"],
   "boot": "auto",
   "map": ["config", "ssl"],
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
