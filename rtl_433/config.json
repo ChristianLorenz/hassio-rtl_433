@@ -10,6 +10,8 @@
   "map": ["config", "ssl"],
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "host_network": "False",
+  "options": {},
+  "schema": {},
   "arch": [
     "aarch64",
     "amd64",
