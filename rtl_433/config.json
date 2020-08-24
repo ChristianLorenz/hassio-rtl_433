@@ -1,6 +1,6 @@
 {
   "name": "RTL_433 to MQTT",
-  "version": "0.3",
+  "version": "0.4",
   "slug": "rtl_433",
   "description": "Decodes 315 & 433MHz RF devices and sends them out via MQTT.  Configure via /config/rtl_433.conf.",
   "url": "https://github.com/ChristianLorenz/hassio-rtl_433",
